@@ -16,18 +16,19 @@
   <section class="container">
     <header class="row text-center">
       <div class="col">
-        <h1>WELCOME TO GREG'S LIST</h1>
-        <h3 class="sections">Cars</h3>
+        <h1>Welcome to Greg's List!</h1>
+        <h3 class="sections">CARS</h3>
       </div>
     </header>
     <section class="row my-3 text-center">
       <div class="col-12">
         <h5>List your car below:</h5>
         <form onsubmit="app.controllers.carController.addCar(event)">
-          <input type="text" name="title" placeholder="Title" required>
-          <input type="text" name="description" placeholder="Description">
-          <input type="number" name="price" placeholder="Price" required>
-          <input type="url" name="img" placeholder="Image" requried>
+          <input class="my-1" type="text" name="title" placeholder="Title" required>
+          <input class="my-1" type="number" name="price" placeholder="Price" required>
+          <input class="my-1" type="url" name="img" placeholder="Image URL" requried>
+          <textarea class="my-1 textarea" name="description" rows="1" cols="70"
+            placeholder="Description"></textarea><br>
           <button type="submit">Submit</button>
         </form>
       </div>
@@ -39,17 +40,18 @@
   <section class="container">
     <div class="row text-center">
       <div class="col">
-        <h3 class="sections">Jobs</h3>
+        <h3 class="sections">JOBS</h3>
       </div>
     </div>
     <section class="row my-3 text-center">
       <div class="col-12">
         <h5>List your job below:</h5>
         <form onsubmit="app.controllers.jobController.addJob(event)">
-          <input type="text" name="title" placeholder="Title" required>
-          <input type="text" name="description" placeholder="Description">
-          <input type="number" name="wage" placeholder="Wage/hr" required>
-          <input type="url" name="img" placeholder="Image" requried>
+          <input class="my-1" type="text" name="title" placeholder="Title" required>
+          <input class="my-1" type="number" name="wage" placeholder="Wage/hr" required>
+          <input class="my-1" type="url" name="img" placeholder="Image URL" requried>
+          <textarea class="my-1 textarea" name="description" rows="1" cols="70"
+            placeholder="Description"></textarea><br>
           <button type="submit">Submit</button>
         </form>
       </div>

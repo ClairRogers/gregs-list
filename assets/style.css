@@ -12,3 +12,7 @@ body {
 img {
   height: 200px;
 }
+
+.textarea {
+  width: 70%;
+}
