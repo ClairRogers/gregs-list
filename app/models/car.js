@@ -11,7 +11,7 @@ export default class Car {
   }
   getTemplate() {
     return `
-    <div class="card col-3">
+    <div class="card col-12 col-md-3">
         <img src="${this.img}" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">${this.title}</h5>
