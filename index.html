@@ -60,6 +60,29 @@
       <!-- cards populate here -->
     </div>
   </section>
+  <section class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h3 class="sections">HOUSES</h3>
+      </div>
+    </div>
+    <section class="row my-3 text-center">
+      <div class="col-12">
+        <h5>List your house below:</h5>
+        <form onsubmit="app.controllers.houseController.addHouse(event)">
+          <input class="my-1" type="text" name="title" placeholder="Title" required>
+          <input class="my-1" type="number" name="price" placeholder="Price" required>
+          <input class="my-1" type="url" name="img" placeholder="Image URL" requried>
+          <textarea class="my-1 textarea" name="description" rows="1" cols="70"
+            placeholder="Description"></textarea><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <div class="row" id="available-houses">
+      <!-- cards populate here -->
+    </div>
+  </section>
 
 
   <script type="module" src="app/main.js"></script>
