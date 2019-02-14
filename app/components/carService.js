@@ -8,7 +8,7 @@ let _state = {
   cars: [
     new Car({ price: 1000, title: 'Geo Metro', img: 'https://i.pinimg.com/originals/29/36/f1/2936f1405ae897de54c441016c0e480d.jpg', description: 'Your average geo metro but swole' }),
     new Car({ price: 1500, title: 'Subaru Outback', img: 'https://bobandsuewilliams.com/images/subaru-old-17.jpg', description: 'Need 4 wheel drive? we gotchu' }),
-    new Car({ price: 2000, title: 'Toyota Corolla', img: 'http://blogmedia.dealerfire.com/wp-content/uploads/sites/224/2016/04/7th-gen-corolla_o.jpg', description: 'who even drives these' })
+    new Car({ price: 2000, title: 'Crotch Rocket', img: 'https://media.nextechclassifieds.com/img/listings/je/jefmac55/listing_pic_1179325_1459206779.jpeg', description: 'Impress your friends and disappoint your parents' })
   ]
 }
 
